@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<galaxy_sizes>
+	<galaxy_size>
+		<name>Tiny</name>
+		<stars>200</stars>
+		<radius>500</radius>
+	</galaxy_size>
+	<galaxy_size>
+		<name>Small</name>
+		<stars>600</stars>
+		<radius>500</radius>
+	</galaxy_size>
+	<galaxy_size>
+		<name>Medium</name>
+		<stars>1000</stars>
+		<radius>800</radius>
+	</galaxy_size>
+	<galaxy_size>
+		<name>Large</name>
+		<stars>2000</stars>
+		<radius>800</radius>
+	</galaxy_size>
+	<galaxy_size>
+		<name>Epic</name>
+		<stars>2500</stars>
+		<radius>1000</radius>
+	</galaxy_size>
+</galaxy_sizes>

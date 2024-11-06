@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<galaxy_ages>
+	<galaxy_age>
+		<name>Young</name>
+		<years>1000000000</years>
+	</galaxy_age>
+	<galaxy_age>
+		<name>Normal</name>
+		<years>13000000000</years>
+	</galaxy_age>
+	<galaxy_age>
+		<name>Mature</name>
+		<years>25000000000</years>
+	</galaxy_age>
+</galaxy_ages>

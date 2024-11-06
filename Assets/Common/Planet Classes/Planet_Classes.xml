@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<planet_classes>
+	<planet_class>
+		<entity>sandsea_planet</entity>
+		<entity_scale>1.0</entity_scale>
+		<icon>GFX_planet_type_desert</icon>
+		<atmosphere_color>0.50 0.3 0.7</atmosphere_color>
+		<atmosphere_intensity>1.0</atmosphere_intensity>
+		<atmosphere_width>0.5</atmosphere_width>
+		<city_color_lut>gfx/portraits/misc/colorcorrection_desert.dds</city_color_lut>
+		<climate>dry</climate>
+		<colonizable>yes</colonizable>
+		<initial>yes</initial>
+		<planet_size>25 30</planet_size>
+		<moon_size>5 15</moon_size>
+		<spawn_odds>10</spawn_odds>
+		<min_distance_from_sun>40</min_distance_from_sun>
+		<max_distance_from_sun>1000</max_distance_from_sun>
+		<extra_orbit_size>1</extra_orbit_size>
+		<extra_planet_count>2</extra_planet_count>
+		<can_be_moon>yes</can_be_moon>
+		<chance_of_ring>0.6</chance_of_ring>
+		<uses_alternative_skies_for_moons>yes</uses_alternative_skies_for_moons>
+		<district_set>standard</district_set>
+		<carry_cap_per_free_district>100</carry_cap_per_free_district>
+	</planet_class>
+
+	<planet_class>
+		<entity>forest_planet</entity>
+		<entity_scale>1.0</entity_scale>
+		<icon>GFX_planet_type_forest</icon>
+		<atmosphere_color>0.35 0.7 0.5</atmosphere_color>
+		<atmosphere_intensity>0.8</atmosphere_intensity>
+		<atmosphere_width>0.4</atmosphere_width>
+		<city_color_lut>gfx/portraits/misc/colorcorrection_forest.dds</city_color_lut>
+		<climate>temperate</climate>
+		<colonizable>yes</colonizable>
+		<initial>no</initial>
+		<planet_size>25 30</planet_size>
+		<moon_size>5 15</moon_size>
+		<spawn_odds>20</spawn_odds>
+		<min_distance_from_sun>40</min_distance_from_sun>
+		<max_distance_from_sun>1000</max_distance_from_sun>
+		<extra_orbit_size>1</extra_orbit_size>
+		<extra_planet_count>2</extra_planet_count>
+		<can_be_moon>yes</can_be_moon>
+		<chance_of_ring>0.6</chance_of_ring>
+		<uses_alternative_skies_for_moons>no</uses_alternative_skies_for_moons>
+		<district_set>standard</district_set>
+		<carry_cap_per_free_district>150</carry_cap_per_free_district>
+	</planet_class>
+</planet_classes>
