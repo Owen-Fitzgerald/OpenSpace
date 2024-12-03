@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vegetations>
+	<Vegetation Id="te_None">
+		<name>None</name>
+		<GenerationValues>0 33</GenerationValues>
+	</Vegetation>
+	<Vegetation Id="te_Sparse">
+		<name>Sparse</name>
+		<GenerationValues>34 66</GenerationValues>
+	</Vegetation>
+	<Vegetation Id="te_Dense">
+		<name>Dense</name>
+		<GenerationValues>66 100</GenerationValues>
+	</Vegetation>
+</Vegetations>

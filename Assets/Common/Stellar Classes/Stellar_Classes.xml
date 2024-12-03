@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<stellar_classes>
+	<stellar_class Id="sc_b">
+		<name>Class B</name>
+		<mass>2.1 16</mass>
+		<radius>1.8 6.6</radius>
+		<luminosity>25 30000</luminosity>
+		<temperature>10000 30000</temperature>
+	</stellar_class>
+	<stellar_class Id="sc_a">
+		<name>Class A</name>
+		<mass>1.4 2</mass>
+		<radius>1.4 1.8</radius>
+		<luminosity>5 25</luminosity>
+		<temperature>7300 10000</temperature>
+	</stellar_class>
+	<stellar_class Id="sc_f">
+		<name>Class F</name>
+		<mass>1.04 1.4</mass>
+		<radius>1.15 1.4</radius>
+		<luminosity>1.5 5</luminosity>
+		<temperature>6000 73000</temperature>
+	</stellar_class>
+	<stellar_class Id="sc_g">
+		<name>Class G</name>
+		<mass>.8 1.04</mass>
+		<radius>.96 1.15</radius>
+		<luminosity>.6 1.5</luminosity>
+		<temperature>5300 6000</temperature>
+	</stellar_class>
+	<stellar_class Id="sc_K">
+		<name>Class K</name>
+		<mass>.45 .8</mass>
+		<radius>.7 .96</radius>
+		<luminosity>.08 .6</luminosity>
+		<temperature>3900 5300</temperature>
+	</stellar_class>
+	<stellar_class Id="sc_M">
+		<name>Class M</name>
+		<mass>.08 .45</mass>
+		<radius>0 .7</radius>
+		<luminosity>0 .08</luminosity>
+		<temperature>2300 3900</temperature>
+	</stellar_class>
+</stellar_classes>

@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Xml.Linq;
 using System.Xml.Serialization;
-using Geraldine.Standards.InfoSystem.Infos;
+using Geraldine.Standards.InfoSystem.Contracts;
 
 namespace Geraldine.Standards.Localization.Infos
 {
-    public class LocalizableTextInfo : BaseInfo
+    public class LocalizableTextInfo : ContractBase<LocalizableTextInfo>
     {
 
         [XmlElement("af")]
@@ -143,6 +144,11 @@ namespace Geraldine.Standards.Localization.Infos
         public LocalizableTextInfo(string UniqueId, string Name) :
             base(UniqueId, Name)
         {
+        }
+
+        public override LocalizableTextInfo ParseFromXml(XElement element)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

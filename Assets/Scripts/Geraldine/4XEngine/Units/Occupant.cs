@@ -7,7 +7,7 @@ namespace Geraldine._4XEngine.Units
 {
     public class Occupant : MonoBehaviour, IExistOnNodeGraph
     {
-        public INodeGraph<INode> ParentGraph { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+        public INodeGraph ParentGraph { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
         public INode Location { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
         public float Orientation { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 

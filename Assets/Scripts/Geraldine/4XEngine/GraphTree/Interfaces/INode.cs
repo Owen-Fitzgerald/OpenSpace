@@ -8,9 +8,19 @@ namespace Geraldine._4XEngine.GraphTree.Interfaces
     public interface INode
     {
         /// <summary>
+        /// Serialiable Id of the node
+        /// </summary>
+        public int Id { get; }
+
+        /// <summary>
+        /// Text name of the node
+        /// </summary>
+        public string Name { get; }
+
+        /// <summary>
         /// Parent Node Graph which contains this node
         /// </summary>
-        public INodeGraph<INode> ParentGraph { get; set; }
+        public INodeGraph ParentGraph { get; set; }
 
         /// <summary>
         /// Local position of this node.

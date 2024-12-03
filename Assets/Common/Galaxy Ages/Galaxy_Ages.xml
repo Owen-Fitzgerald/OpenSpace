@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <galaxy_ages>
-	<galaxy_age>
+	<galaxy_age Id="ga_young">
 		<name>Young</name>
 		<years>1000000000</years>
 	</galaxy_age>
-	<galaxy_age>
+	<galaxy_age Id="ga_normal">
 		<name>Normal</name>
 		<years>13000000000</years>
 	</galaxy_age>
-	<galaxy_age>
+	<galaxy_age Id="ga_mature">
 		<name>Mature</name>
 		<years>25000000000</years>
 	</galaxy_age>

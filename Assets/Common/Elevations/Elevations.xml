@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elevations>
+	<Elevation Id="el_Ocean">
+		<name>Ocean</name>
+		<ZValue>-2</ZValue>
+		<IsUnderwater>true</IsUnderwater>
+		<NoVegetation>true</NoVegetation>
+	</Elevation>
+	<Elevation Id="el_Coast">
+		<name>Coast</name>
+		<ZValue>-1</ZValue>
+		<IsUnderwater>true</IsUnderwater>
+		<NoVegetation>true</NoVegetation>
+	</Elevation>
+	<Elevation Id="el_SeaLevel">
+		<name>Sea Level</name>
+		<ZValue>0</ZValue>
+		<IsLand>true</IsLand>
+	</Elevation>
+	<Elevation Id="el_Hills">
+		<name>Hills</name>
+		<ZValue>1</ZValue>
+		<IsLand>true</IsLand>
+	</Elevation>
+	<Elevation Id="el_Plateau">
+		<name>Plateau</name>
+		<ZValue>2</ZValue>
+		<IsLand>true</IsLand>
+	</Elevation>
+	<Elevation Id="el_Foothills">
+		<name>Foothills</name>
+		<ZValue>3</ZValue>
+		<IsLand>true</IsLand>
+	</Elevation>
+	<Elevation Id="el_Mountain">
+		<name>Mountain</name>
+		<ZValue>4</ZValue>
+		<IsLand>true</IsLand>
+	</Elevation>
+	<Elevation Id="el_Summit">
+		<name>Summit</name>
+		<ZValue>5</ZValue>
+		<IsLand>true</IsLand>
+		<Impassable>true</Impassable>
+	</Elevation>
+</Elevations>

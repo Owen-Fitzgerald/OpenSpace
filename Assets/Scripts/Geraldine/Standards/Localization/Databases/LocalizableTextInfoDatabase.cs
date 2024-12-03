@@ -1,4 +1,4 @@
-﻿using Geraldine.HexEngine.Localization;
+﻿using Geraldine._4XEngine.Localization;
 using Geraldine.Standards.InfoSystem;
 using Geraldine.Standards.Localization.Infos;
 using System;
@@ -53,7 +53,7 @@ namespace Geraldine.Standards.Localization.Databases
             {
                 try
                 {
-                    Instance.LoadedDatabase.Add(FileName, FileSystem.DeserializeFile(file, typeof(List<LocalizableTextInfo>)) as List<LocalizableTextInfo>);
+                    //Instance.LoadedDatabase.Add(FileName, FileSystem.DeserializeFile(file, typeof(List<LocalizableTextInfo>)) as List<LocalizableTextInfo>);
                     successullyRead = Instance.LoadedDatabase.Count() > 0;
                 }
                 catch

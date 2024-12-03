@@ -5,7 +5,7 @@ using UnityEngine;
 using Geraldine.Standards.Localization;
 using System.Linq;
 
-namespace Geraldine.HexEngine.Localization
+namespace Geraldine._4XEngine.Localization
 {
     public static class Locale
     {
@@ -48,10 +48,10 @@ namespace Geraldine.HexEngine.Localization
 
         public static string GetFormattedLocalizedTextBody(string LocalizationId, int index = 0)
         {
-            if (!(LocalizableTextInfoDatabase.Instance.LoadedDatabase.Values.SelectMany(_ => _.ToList()).Distinct().FirstOrDefault(_ => _.UniqueID == LocalizationId) != null))
+            if (!(LocalizableTextInfoDatabase.Instance.LoadedDatabase.Values.SelectMany(_ => _.ToList()).Distinct().FirstOrDefault(_ => _.UniqueId == LocalizationId) != null))
                 return "LOCALIZATION_KEY_NOT_FOUND";
 
-            LocalizableTextInfo localizableText = LocalizableTextInfoDatabase.Instance.LoadedDatabase.Values.SelectMany(_ => _.ToList()).Distinct().FirstOrDefault(_ => _.UniqueID == LocalizationId);
+            LocalizableTextInfo localizableText = LocalizableTextInfoDatabase.Instance.LoadedDatabase.Values.SelectMany(_ => _.ToList()).Distinct().FirstOrDefault(_ => _.UniqueId == LocalizationId);
             string rawString = GetLanguageText(CurrentLanguage, localizableText);
 
             if (rawString.Contains(GeraldineStandardsSettings.TextBodyIndexSeperator))

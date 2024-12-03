@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SoilQualities>
+	<SoilQuality Id="te_Poor">
+		<name>Poor</name>
+		<GenerationValues>0 33</GenerationValues>
+	</SoilQuality>
+	<SoilQuality Id="te_Fertile">
+		<name>Fertile</name>
+		<GenerationValues>34 66</GenerationValues>
+	</SoilQuality>
+	<SoilQuality Id="te_Rich">
+		<name>Rich</name>
+		<GenerationValues>66 100</GenerationValues>
+	</SoilQuality>
+</SoilQualities>

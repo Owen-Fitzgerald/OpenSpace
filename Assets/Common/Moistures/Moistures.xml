@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Moistures>
+	<Moisture Id="mo_Dry">
+		<name>Dry</name>
+		<GenerationValues>0 33</GenerationValues>
+	</Moisture>
+	<Moisture Id="mo_Moderate">
+		<name>Moderate</name>
+		<GenerationValues>34 66</GenerationValues>
+	</Moisture>
+	<Moisture Id="mo_Wet">
+		<name>Wet</name>
+		<GenerationValues>66 100</GenerationValues>
+	</Moisture>
+</Moistures>

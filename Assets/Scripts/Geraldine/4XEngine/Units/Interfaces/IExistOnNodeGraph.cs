@@ -5,7 +5,7 @@ namespace Geraldine._4XEngine.Units.Interfaces
 {
     public interface IExistOnNodeGraph
     {
-        public INodeGraph<INode> ParentGraph { get; set; }
+        public INodeGraph ParentGraph { get; set; }
 
         public INode Location { get; set; }
 

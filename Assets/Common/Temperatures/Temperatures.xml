@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Temperatures>
+	<Temperature Id="te_Cold">
+		<name>Cold</name>
+		<GenerationValues>0 33</GenerationValues>
+	</Temperature>
+	<Temperature Id="te_Temperate">
+		<name>Temperate</name>
+		<GenerationValues>34 66</GenerationValues>
+	</Temperature>
+	<Temperature Id="te_Hot">
+		<name>Hot</name>
+		<GenerationValues>66 100</GenerationValues>
+	</Temperature>
+</Temperatures>

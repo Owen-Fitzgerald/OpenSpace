@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Geraldine.HexEngine.Localization
+namespace Geraldine._4XEngine.Localization
 {
     public abstract class BaseLocalizeBehaviour : MonoBehaviour
     {
@@ -49,7 +49,7 @@ namespace Geraldine.HexEngine.Localization
         {
             Locale.CurrentLanguage = language;
             Locale.PlayerLanguage = language;
-            LocalizeTextBehaviour[] allTexts = GameObject.FindObjectsOfType<LocalizeTextBehaviour>();
+            LocalizeTextBehaviour[] allTexts = GameObject.FindObjectsByType<LocalizeTextBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.InstanceID);
             for (int i = 0; i < allTexts.Length; i++)
                 allTexts[i].UpdateLocale();
         }

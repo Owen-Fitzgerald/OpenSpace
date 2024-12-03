@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <planet_classes>
-	<planet_class>
+	<planet_class Id="pc_dune">
+		<name>Dune Planet</name>
 		<entity>sandsea_planet</entity>
 		<entity_scale>1.0</entity_scale>
 		<icon>GFX_planet_type_desert</icon>
@@ -25,7 +26,8 @@
 		<carry_cap_per_free_district>100</carry_cap_per_free_district>
 	</planet_class>
 
-	<planet_class>
+	<planet_class Id="pc_endor">
+		<name>Forest Planet</name>
 		<entity>forest_planet</entity>
 		<entity_scale>1.0</entity_scale>
 		<icon>GFX_planet_type_forest</icon>

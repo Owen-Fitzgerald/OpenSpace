@@ -11,13 +11,14 @@ namespace Geraldine._4XEngine.GraphTree
     {
 
         //Serializable Properties
-        public Int32 Id { get; private set; }
+        public virtual int Id { get; private set; }
+        public virtual string Name { get; set; }
 
         public Vector3 Position { get; set; }
 
         //Gameplay Properties
 
-        public INodeGraph<INode> ParentGraph { get; set; }
+        public INodeGraph ParentGraph { get; set; }
 
         public IList<IExistOnNodeGraph> Occupants { get; private set; }
 

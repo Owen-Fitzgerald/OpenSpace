@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Geraldine.HexEngine.Localization
+namespace Geraldine._4XEngine.Localization
 {
     [RequireComponent(typeof(Image))]
     public class LocalizeImageBehaviour : MonoBehaviour
@@ -28,7 +28,7 @@ namespace Geraldine.HexEngine.Localization
         /// </summary>
         public static void SetCurrentLanguage()
         {
-            LocalizeImageBehaviour[] allTexts = GameObject.FindObjectsOfType<LocalizeImageBehaviour>();
+            LocalizeImageBehaviour[] allTexts = GameObject.FindObjectsByType<LocalizeImageBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.InstanceID);
             for (int i = 0; i < allTexts.Length; i++)
                 allTexts[i].UpdateLocale();
         }

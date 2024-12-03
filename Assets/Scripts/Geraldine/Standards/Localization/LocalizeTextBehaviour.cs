@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace Geraldine.HexEngine.Localization
+namespace Geraldine._4XEngine.Localization
 {
 
     [RequireComponent(typeof(TMP_Text))]
